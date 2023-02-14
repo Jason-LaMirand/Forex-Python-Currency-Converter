@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block title %}Home Page{% endblock %}
+
+{% block content %}
+<h4>{{symbol1}} {{amount}} {{convert_from}} is {{symbol2}} {{data.result}} {{convert_to}}.</h4>
+
+
+<form action="/">
+    <button class="submit">Home</button>
+</form>
+{% endblock %}
